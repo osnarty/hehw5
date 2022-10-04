@@ -7,15 +7,14 @@
 #e. The fifth invocation will blink the LED 3 times
 
 ./ledhw5.sh on
-echo -e " \n"
+echo
 
 ./ledhw5.sh off
-echo -e " \n"
+echo
 
 ./ledhw5.sh status
-echo -e " \n"
+echo
 
 ./ledhw5.sh flash
-echo -e " \n"
-
+echo
 ./ledhw5.sh blink 3

@@ -17,7 +17,7 @@ fi
 echo "Difference = $difference"
 echo
 
-counter=$diff
+counter=$difference
 
 while [ $counter -gt 0 ]
 do	

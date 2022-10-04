@@ -7,14 +7,14 @@
 
 if [ $1 -gt $2 ]
 then
-	diff=$(($1-$2))
+	difference=$(($1-$2))
 	echo $1 is larger than $2
 else
-	diff=$(($2-$1))
+	difference=$(($2-$1))
 	echo $2 is larger than $1
 fi
 
-echo "Difference = $diff"
+echo "Difference = $difference"
 echo
 
 counter=$diff
